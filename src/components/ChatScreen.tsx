@@ -3,7 +3,7 @@ import ChatBox from "./ChatBox";
 export default function ChatScreen() {
   return (
     <div className="relative bg-[#FAF9F4] flex flex-col items-center w-full md:max-w-[600px] h-[100vh]">
-      <div className="w-full border-b-[1px] border-gray-400 p-3 pb-4">
+      <div className="w-full border-b-[1px] border-[#E5E5E0] p-3 pb-4">
         <div className="flex justify-between items-center p-2">
           <button className="flex justify-center items-center space-x-2">
             <svg
