@@ -52,12 +52,12 @@ export default function ChatScreen() {
           <button className="flex justify-center items-center space-x-3">
             <img src={groupImg} className="w-16 h-16 rounded-full" />
             <div className="flex flex-col h-full items-start">
-              <span className="font-medium text-gray-500 ">
+              <span className="font-medium text-[#606060] ">
                 From{" "}
-                <span className="font-bold text-black">IGI Airport, T3</span>
+                <span className="font-bold text-[#141E0D]">IGI Airport, T3</span>
               </span>
-              <span className="font-medium text-gray-500 ">
-                To <span className="font-bold text-black">Sector 28</span>
+              <span className="font-medium text-[#606060] ">
+                To <span className="font-bold text-[#141E0D]">Sector 28</span>
               </span>
             </div>
           </button>
@@ -94,14 +94,14 @@ export default function ChatScreen() {
           </button>
         </div>
       </div>
-      <div className="w-full px-3 flex flex-col justify-evenly items-center h-max overflow-hidden overflow-y-scroll">
+      <div className="w-full px-3 flex flex-col justify-evenly items-center h-fit overflow-hidden">
         <ChatBox />
       </div>
 
       <div className="flex justify-between items-center z-10 w-full bg-[#FAF9F4] p-5">
         <input
           type="text"
-          placeholder="Type something..."
+          placeholder="Reply to @Rohit Yadav"
           className="w-[80%] h-fit rounded-lg text-lg px-3 py-2"
         />
         <button>
